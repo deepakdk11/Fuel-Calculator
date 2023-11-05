@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+    background-image: linear-gradient(to right top, #ff00e9, #ff00bb, #ff008f, #ff0067, #ff0043, #ff0044, #ff0044, #ff0045, #ff0069, #ee0097, #bf00cb, #4200ff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.container{
+    border: 1px solid white; 
+    width: 350px;
+    margin: 100px auto 0px auto;
+    background-color: white;
+}
+
+.heading{
+    margin: 10px 10px 10px 5px;
+    /* border:1px solid; */
+    display: flex;
+    gap: 130px;
+
+}
+
+h3{
+    color: rgb(252, 13, 13);
+}
+
+.form{
+    margin: 10px;
+}
+
+.index{
+    padding: 10px;
+}
+
+
+input{
+    padding: 5px;
+    width: 95%;
+    border:0;
+    background-color: rgb(216, 231, 243);
+    margin-top: 5px;
+    height: 20px;
+}
+
+input:hover{
+    outline: 0;
+}
+
+
+
+button{
+    margin: 10px;
+    width: 94%;
+    padding: 8px;
+    background-color: rgb(252, 13, 13);
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.result{
+    transition-duration: 1s;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+span{
+    color: #ff0043;
+    font-weight: 700;
+    font-size: larger;
+}
+
+q{
+    color: #ff0043;
+}
+
+svg:hover path {
+    fill: black;
+    transition: all ease 0.3s;
+}
+svg:active path {
+    fill: black;
+}
